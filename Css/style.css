@@ -29,3 +29,9 @@ body {
     box-sizing: border-box;
     height: 100% !important;
 }
+img {
+    float: left;
+    width:  100px;
+    height: 150px;
+    
+}
