@@ -2,62 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <h1>Mark and Reed's Top 10</h1>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Marks top 10!</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Reeds top 10!</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <div class="row">
-        <!-- header -->
-        <div class="col-6 markheader">
-            <h2> Mark's top ten</h2>
-        </div>
-        <div class="col-6 reedheader">
-            <h2>Reed's top ten</h2>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <h1>Mark and Reed's Top 10</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Marks top 10!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reeds top 10!</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!-- buttons -->
-    <div class="row welcome3">
-    <h3 class="welcome">Hey! Weolcome to Mark and Reed's top 10's! Mark made a 
-        in depth top 10 of his favorite video games, and Reed made a top 10 list of his 
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 markheader">
+        <h2> Mark's top ten</h2>
+      </div>
+      <div class="col-6 reedheader">
+        <h2>Reed's top ten</h2>
+      </div>
+    </div>
+
+  </div>
+  <!-- header -->
+
+  <!-- welcome -->
+  <div class="row">
+    <div class="col middle">
+      <h3 class="welcome">Hey! Weolcome to Mark and Reed's top 10's! Mark made a
+        in depth top 10 of his favorite video games, and Reed made a top 10 list of his
         favorite foods! There are videos linked for resources! Take your time
         enjoy, and I hope you learn something!
-    </h3>
+      </h3>
     </div>
-    <div class="row pagebuttonrow">
-        <div class="col-6 d-flex justify-content-start">
-            <a href="./pages/mark.html">
-                <button type="button" class="btn btn-primary">Primary</button>
-            </a>
-        </div>
-        <div class="col-6 reedbutton">
-            <a href="./pages/reed.html">
-                <button type="button" class="btn btn-primary">Primary</button>
-            </a>
-        </div>
+  </div>
+<!-- buttons -->
+<div class="container">
+
+  <div class="row pagebuttonrow">
+    <div class="col-6 d-flex justify-content-start">
+      <a href="./pages/mark.html">
+        <button type="button" class="btn btn-primary">Primary</button>
+      </a>
     </div>
+    <div class="col-6 reedbutton">
+      <a href="./pages/reed.html">
+        <button type="button" class="btn btn-primary">Primary</button>
+      </a>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
