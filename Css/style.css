@@ -46,3 +46,6 @@ body {
     display: flex;
     justify-content: center;
 }
+p{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
