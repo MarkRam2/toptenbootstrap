@@ -49,10 +49,10 @@ body {
     
     
 }
-p{
+ p{
     font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 120%;
-}
+    font-size: 90%;
+} 
 h5{
     font-family: "Lucida Handwriting", Helvetica, sans-serif;
     font-size: 140%;
@@ -80,3 +80,8 @@ height: 400px;
 .reedbuttn{
     background-color: #598392;
 }
+/* @media all and (max-width: 768px) {
+    p {
+        font-size: 100%;
+    }
+} */
