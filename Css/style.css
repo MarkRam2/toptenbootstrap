@@ -45,6 +45,9 @@ body {
 .middle {
     display: flex;
     justify-content: center;
+    width: 100%;
+    
+    
 }
 p{
     font-family: "Lucida Console", "Courier New", monospace;
@@ -62,3 +65,8 @@ h1{
 h2{
     font-family: "Papyrus", Helvetica, sans-serif;
 }
+.carosol {
+}
+img {
+    max-width: 500px;
+  }

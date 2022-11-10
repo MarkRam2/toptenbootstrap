@@ -11,10 +11,10 @@
 </head>
 
 <body>
-  
+
   <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <h1>Mark and Reed's Top 10</h1>
+    <div class="container-fluid">
+      <h1>Mark and Reed's Top 10</h1>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,8 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Marks top 10!</a>
+            <a class="nav-link active" aria-current="page" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Marks top
+              10!</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Reeds top 10!</a>
@@ -32,74 +33,87 @@
     </div>
   </nav>
   <div class="container-fluid">
-  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 markheader">
+          <h2> Mark's top ten</h2>
+        </div>
+        <div class="col-6 reedheader">
+          <h2>Reed's top ten</h2>
+        </div>
+      </div>
+
+    </div>
+    <!-- header -->
+
+    <!-- welcome -->
     <div class="row">
-      <div class="col-6 markheader">
-        <h2> Mark's top ten</h2>
+      <div class="col middle">
+        <p class="welcome">Hey! Weolcome to Mark and Reed's top 10's! Mark made a
+          in depth top 10 of his favorite video games, and Reed made a top 10 list of his
+          favorite foods! There are videos linked for resources! Take your time
+          enjoy, and I hope you learn something!
+        </p>
       </div>
-      <div class="col-6 reedheader">
-        <h2>Reed's top ten</h2>
+    </div>
+    <!-- buttons -->
+    <div class="container">
+
+      <div class="row pagebuttonrow">
+        <div class="col-6 d-flex justify-content-start">
+          <a href="./pages/mark.html">
+            <button type="button" class="btn btn-primary">marks top 10</button>
+          </a>
+        </div>
+        <div class="col-6 reedbutton">
+          <a href="./pages/reed.html">
+            <button type="button" class="btn btn-primary">reeds top 10</button>
+          </a>
+        </div>
       </div>
     </div>
+    
+  <div class="carosol">
+    <div class="middle">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/aloy.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/Boiga(australian).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/Burritos.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
 
   </div>
-  <!-- header -->
-
-  <!-- welcome -->
-  <div class="row">
-    <div class="col middle">
-      <p class="welcome">Hey! Weolcome to Mark and Reed's top 10's! Mark made a
-        in depth top 10 of his favorite video games, and Reed made a top 10 list of his
-        favorite foods! There are videos linked for resources! Take your time
-        enjoy, and I hope you learn something!
-      </p>
-    </div>
-  </div>
-<!-- buttons -->
-<div class="container">
-
-  <div class="row pagebuttonrow">
-    <div class="col-6 d-flex justify-content-start">
-      <a href="./pages/mark.html">
-        <button type="button" class="btn btn-primary">marks top 10</button>
-      </a>
-    </div>
-    <div class="col-6 reedbutton">
-      <a href="./pages/reed.html">
-        <button type="button" class="btn btn-primary">reeds top 10</button>
-      </a>
-    </div>
-  </div>
-</div>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./assets/aloy.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/Boiga(australian).jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./assets/Burritos.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
