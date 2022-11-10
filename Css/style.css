@@ -40,7 +40,8 @@ body {
     width: 40%;
     display: flex;
     justify-content: center;
-    /* text-align: center; */
+    text-align: center;
+    font-size:larger
 }
 .middle {
     display: flex;
